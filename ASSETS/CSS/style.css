@@ -1,0 +1,152 @@
+:root {
+    --bg1: #2D2A2B;
+    --bg2: rgb(31, 5, 5);
+    --body: rgb(32, 23, 23);
+    --brand: rgb(230, 72, 119);
+    --pink: #f506c1;
+    --white: rgb(156, 154, 154);
+    --p: rgb(161, 150, 150);
+
+
+
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+.p-light {
+    color: var(--p);
+
+}
+
+#about {
+    font-weight: 800;
+    z-index: 1;
+    color: var(rgb(17, 5, 5));
+}
+
+#about h2 {
+    font-weight: 800;
+    z-index: 1;
+    color: blaCK;
+}
+
+#banner {
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(300, 10%, 88%, 0.5), rgba(95, 88, 88, 0.1)), url('https://th.bing.com/th/id/R.6d887a2be32172fb026007880ab62d94?rik=elQCKr0O0C4%2fgA&riu=http%3a%2f%2f3.bp.blogspot.com%2f-8L75jZ7K0xI%2fTbfCYgueZaI%2fAAAAAAAACdw%2f73eafwbtR6I%2fs1600%2fSoccer%2bFootball%2bWallpapers4.jpg&ehk=JjXOiVNV2tdFfAeOD7Sea%2fI84fnlNRuPcr%2ffPDJ8sZo%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+}
+
+.navbar {
+    background: linear-gradient(to botton, hsla(0, 17%, 94%, 0.829) rgba (44, 42, 42, 0.884));
+}
+
+.navbar .nav-link {
+    color: #740f0f;
+}
+
+.navbar #navbarNav .nav-link.active {
+    color: var(--brand) !important;
+}
+
+.navbar .nav-link:hover {
+    color: var(--brand) !important
+}
+
+.navbar-brand img {
+    width: 50%;
+    height: auto;
+}
+
+
+.btn {
+    padding: 15px 30px;
+    transition: all n0.5s ease;
+    font-weight: 800;
+    border-radius: 0;
+}
+
+.btn-brand {
+    background-color: var(--brand);
+}
+
+.btn-brand:hover {
+    background-color: DodgerBlue;
+    color: var(--brand);
+    border: var(--brand);
+}
+
+.btn-outline-bran {
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+
+}
+
+.btn-outline-brand:hover {
+    background-color: var(--brand);
+    color: var(--bg1);
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*about*/
+#about {
+    background-color: var(--bg2);
+
+}
+
+.icon-box-img {
+    width: 40%;
+}
+
+.card {
+    transition: background-color 0.3s, color 0.03s;
+}
+
+.card:hover {
+    background-color:aqua;
+}
+
+.card:hover .card:title,
+.card:hover .card:text,
+.card:hover .btn {
+    color: #ffffff;
+}
+
+#cta {
+    position: relative;
+    opacity: 0.90;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-image: linear-gradient(to right, hsla(0, 79%, 63%, 0.856), rgba(221, 107, 107, 0.315)), url(/ASSETS/IMAGES/jpg.jpg);
+    min-height: 70vh;
+    background: linear-gradient(to right, hsla(300, 10%, 88%, 0.5), rgba(209, 202, 202, 0.1)), url('https://static.vecteezy.com/system/resources/previews/022/628/526/non_2x/football-on-fire-flying-on-bright-background-generate-ai-photo.jpg');
+    background-size: cover;
+}
+#reviews{
+    background-color: #ffffff;
+}
+.testimonials {
+        padding: 30px;
+        background-color: var(--bg1);
+        border-bottom: 1px;
+}
+.testimonials img {
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+}
+#reviews a {
+    text-decoration: none;
+    color: var(--brand);
+}
